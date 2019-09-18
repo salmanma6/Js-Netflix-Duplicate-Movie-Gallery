@@ -1,0 +1,68 @@
+html, body {overflow-x: hidden;}
+.logo{
+    width: 120px;
+    height: 40px;
+}
+.gallery{
+    margin-top:10px;
+    width: 100%;;
+    display: flex;
+    overflow-x: unset;
+    transition: 1s;
+}
+.post{
+    width:300px;
+    height: 500px;
+    margin-left:10px;
+    transition:0.7s;
+
+}
+.posthover{
+    width:700px;
+    height: 500px;
+    margin-left:10px;
+    transition:0.7s;
+}
+.ifr{
+    width:700px;
+    height: 500px;
+    margin-left:10px;
+    overflow: hidden;
+    border-color: transparent;
+}
+.playbutton{
+    cursor: pointer;
+    width: 100px;height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imagediv{
+    position: relative;
+  text-align: center;
+}
+.leftnav{
+    font-size: 50px;
+    color:white;
+    position: fixed;
+    height: 100%;
+    margin-left:5px;
+    top:45%;
+    cursor: pointer;
+    transform:translateX(0px);
+   /* opacity: 0; */
+    /* transition: 0.5s;   */
+}
+.rightnav{
+    font-size: 50px;
+    color:white;
+    position: fixed;
+    top:45%;
+    left:96%;
+    float:right; 
+    cursor: pointer;
+    transform:translateX(0px);
+    /* opacity: 0;
+    transition: 0.5s; */
+}
